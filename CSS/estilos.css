@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/*por defecto para toda la pagina*/
+:root {
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: 16px;
+
+}
+
+*{
+    margin: 0;
+}
+
+
+
+/*regla: selector por clase!!!!*/
+.headerContainer {
+    text-align: center;
+    /*texto alineado al centro*/
+    text-transform: uppercase;
+    /* Pasa el texto a mayuscula */
+    border: 1px solid lightblue;
+    /*fondo*/
+    background: black;
+    border-radius: 10px;
+}
+/*selector descendiente*/
+.headerContainer h1 {
+    color: yellowgreen;
+}
+
+/*estilos de main*/
+.mainContainer {
+    font-size: 25px;
+    background: lightblue;
+    /*altura flexible: vh depende el alto del view port*/
+    height: 50vh;
+}
+.mainSection {
+    border: 1px solid blue;
+}
+
+.left_side {
+    background: white;
+    flex: 1;
+    text-align: left; 
+}
+.right_side {
+    background: lightgreen;
+    text-align: right; 
+ 
+}
+.inlineBlock {
+    display: inline-block;
+}
+.w50 {
+    width: 48%;
+}
+
+/*estilos de footer*/
+.footerContainer {
+    background: red;
+    height: 25vh;
+}

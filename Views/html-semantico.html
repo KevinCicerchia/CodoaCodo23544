@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Lo ve el browser (Encabezado del doc)-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML SEMANTICO</title>
+
+    <style>
+    /*esto es un comentario en css*/ /*Modifica el HTML*/ /* es un selector de etiqueta*/
+        a{color: blue;
+        }
+        /*Selector por ID (Todas las etiquetas <a> van a tener este estilo)*/
+    </style>
+    <!--Tercer forma de agregar estilos en HTML (Externas)-->
+<link rel="stylesheet" href="./CSS/styles.css">
+
+</head>
+<body>
+    <!--Primer forma-->
+    <!-- Header es la seccion principal (encabezado del documento)-->
+    <header style="border: solid; color: black; background-color: #666666;">
+        <h1 align="center"style="color: red;">T&iacute;tulo principal</h1>
+    </header>
+    <!-- Barra de navegacion-->
+    <nav>
+        <ul>
+        <li>
+            <a href="./indexclase.html">Index</a> <!-- HREF es el link-->
+        </li>
+        <li>
+            <a href="./tablas.html">Tablas</a>
+        </li>
+        <li>
+            <a href="./Alumno.html">Google</a>
+        </li>
+        </ul>
+    </nav>
+    <!--Contenido Principal-->
+    <main>
+        <section>
+            <h3 id="eq">Equipos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia amet dolore maiores quos odio!</p>
+        </section>
+    </main>
+    <!-- Publicidad-->
+    <aside>
+        <h4 class="intro">Venta de Autos</h4>
+    </aside> <!-- Informacion independiente. Ej: mensaje de foro-->
+    <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit amet saepe quam, ad, laboriosam alias quaerat nihil, perferendis enim voluptas eaque vitae a corrupti deserunt?</article>
+
+    <!-- Cierre ( Pie de Pagina )-->
+    <footer>
+        <h5>Contacto</h5>
+        <form action="contacto.html"></form>
+        <label>Mensaje</label>         
+        <textarea>
+           Aqui Introduzca su texto
+        </textarea>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+            <h6>Mapa de sitio</h6>
+      
+    </footer>
+</body>
+</html>
+
