@@ -1,0 +1,22 @@
+/*selector por id*/
+/*id es un solo elemento*/
+#eq{
+    color:green
+}
+
+
+/*para todos los h5*/
+h5 {
+    color:lightblue;
+    font-size: 32px;
+}
+/*Especificidad*/
+/*Selector por id > selector de etiqueta
+id > etiqueta o tag*/
+
+/*Selector de clase a quien yo elija*/
+/*Para declarar la class en el elemento HTML se coloca class="el nombre sin el punto"*/
+.intro {
+    color: yellow;
+}
+
